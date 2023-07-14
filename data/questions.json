@@ -32,5 +32,22 @@
 				"isTheAnswer": false
 			}
 		]
+	},
+	{
+		"text": "Wieviele Fragen stellen Kinder pro Tag im Durchschnitt",
+		"choices": [
+			{
+				"label": "1",
+				"isTheAnswer": false
+			},
+			{
+				"label": "50",
+				"isTheAnswer": false
+			},
+			{
+				"label": "400",
+				"isTheAnswer": true
+			}
+		]
 	}
 ]
