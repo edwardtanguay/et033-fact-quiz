@@ -13,4 +13,26 @@ body {
   h1 {
     color: rgb(187, 132, 30);
   }
+
+  .questions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .question {
+      background-color: #000;
+      padding: 1rem;
+
+      ul {
+        margin-left: 1rem;
+        margin-top: .5rem;
+        color: rgb(221, 221, 121);
+
+        li.correct {
+          color: lightgreen;
+        }
+      }
+    }
+  }
 }

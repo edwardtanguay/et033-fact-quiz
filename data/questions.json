@@ -1,6 +1,6 @@
 [
 	{
-		"question": "Wieviel Prozent von Babies lutschen am linken Daum?",
+		"text": "Wieviel Prozent von Babies lutschen am linken Daum?",
 		"choices": [
 			{
 				"label": "10%",
@@ -17,7 +17,7 @@
 		]
 	},
 	{
-		"question": "Wer hat den Flummi erfunden?",
+		"text": "Wer hat den Flummi erfunden?",
 		"choices": [
 			{
 				"label": "die Deutschen",
