@@ -24,3 +24,7 @@ export const QuizQuestion = (question) => {
 	${choicesHtml}
 	`;
 };
+
+export const attachQuizQuestionEvents = () => {
+	alert('attaching events');
+}

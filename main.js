@@ -2,6 +2,7 @@ import './style.scss';
 import questions from './data/questions.json';
 import { AllQuestionsAndAnswers } from './components/AllQuestionsAndAnswers';
 import { Quiz } from './components/Quiz';
+import { attachQuizQuestionEvents } from './components/QuizQuestion';
 
 const appTitle = "Unnützes Wissensquiz";
 
@@ -16,3 +17,6 @@ document.querySelector('#app').innerHTML = `
   ${mainAreaHtml}
 </div>
 `;
+
+// attach events
+attachQuizQuestionEvents();
