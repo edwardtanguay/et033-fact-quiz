@@ -9,7 +9,7 @@ export const QuizQuestion = (question) => {
 
 		r += `<ul class="choices">`; 
 		for (const choice of question.choices) {
-			r += `<li><span class="choice">${choice.label}</span></li>`
+			r += `<li><span class="choice nnn">${choice.label}</span></li>`
 		}
 		r += `</ul>`;
 
@@ -29,8 +29,8 @@ export const attachQuizQuestionEvents = () => {
 	const _choiceElems = document.querySelectorAll("span.choice");
 	const choiceElems = Array.from(_choiceElems);
 	for (const choiceElem of choiceElems) {
-		choiceElem.addEventListener('click', () => {
-			alert('choice clicked');
+		choiceElem.addEventListener('click', (event) => {
+			const elem = event.target;
 		})
 	}
 }
