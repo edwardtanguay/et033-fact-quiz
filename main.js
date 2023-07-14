@@ -5,8 +5,8 @@ import { Quiz } from './components/Quiz';
 
 const appTitle = "Unnützes Wissensquiz";
 
-const mainAreaHtml = AllQuestionsAndAnswers(questions);
-// const mainAreaHtml = Quiz(questions);
+// const mainAreaHtml = AllQuestionsAndAnswers(questions);
+const mainAreaHtml = Quiz(questions);
 
 document.querySelector('#app').innerHTML = `
 <h1>${appTitle}</h1>
