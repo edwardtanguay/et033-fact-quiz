@@ -1,5 +1,6 @@
 [
 	{
+		"id": 1,
 		"text": "Wieviel Prozent von Babies lutschen am linken Daum?",
 		"choices": [
 			{
@@ -17,6 +18,7 @@
 		]
 	},
 	{
+		"id": 2,
 		"text": "Wer hat den Flummi erfunden?",
 		"choices": [
 			{
@@ -34,6 +36,7 @@
 		]
 	},
 	{
+		"id": 3,
 		"text": "Wieviele Fragen stellen Kinder pro Tag im Durchschnitt?",
 		"choices": [
 			{
