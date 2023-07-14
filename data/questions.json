@@ -1,0 +1,36 @@
+[
+	{
+		"question": "Wieviel Prozent von Babies lutschen am linken Daum?",
+		"choices": [
+			{
+				"label": "10%",
+				"isTheAnswer": false
+			},
+			{
+				"label": "50%",
+				"isTheAnswer": false
+			},
+			{
+				"label": "95%",
+				"isTheAnswer": true
+			}
+		]
+	},
+	{
+		"question": "Wer hat den Flummi erfunden?",
+		"choices": [
+			{
+				"label": "die Deutschen",
+				"isTheAnswer": false
+			},
+			{
+				"label": "die Azteken",
+				"isTheAnswer": true
+			},
+			{
+				"label": "die Türken",
+				"isTheAnswer": false
+			}
+		]
+	}
+]
