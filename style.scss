@@ -36,8 +36,22 @@ body {
     }
   }
 
-.choices {
-  margin-left: 2rem;
-}
+  .choices {
+    margin-left: 2rem;
+
+    li {
+      span {
+        cursor: pointer;
+
+        &:hover {
+          font-weight: bold;
+          color: yellow;
+        }
+      }
+      margin-bottom: .5rem
+    }
+  }
+
+
 
 }

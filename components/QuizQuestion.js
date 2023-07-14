@@ -9,7 +9,7 @@ export const QuizQuestion = (question) => {
 
 		r += `<ul class="choices">`; 
 		for (const choice of question.choices) {
-			r += `<li>${choice.label}</li>`
+			r += `<li><span>${choice.label}</span></li>`
 		}
 		r += `</ul>`;
 
