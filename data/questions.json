@@ -37,7 +37,7 @@
 		"text": "Wieviele Fragen stellen Kinder pro Tag im Durchschnitt",
 		"choices": [
 			{
-				"label": "1",
+				"label": "10",
 				"isTheAnswer": false
 			},
 			{
